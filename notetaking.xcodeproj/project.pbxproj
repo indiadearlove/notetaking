@@ -10,11 +10,14 @@
 		243E74AA1A8629710012C8AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 243E74A91A8629710012C8AC /* main.m */; };
 		243E74AD1A8629710012C8AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 243E74AC1A8629710012C8AC /* AppDelegate.m */; };
 		243E74B01A8629710012C8AC /* notetaking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 243E74AE1A8629710012C8AC /* notetaking.xcdatamodeld */; };
-		243E74B31A8629710012C8AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243E74B21A8629710012C8AC /* ViewController.m */; };
-		243E74B61A8629710012C8AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243E74B41A8629710012C8AC /* Main.storyboard */; };
 		243E74B81A8629710012C8AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243E74B71A8629710012C8AC /* Images.xcassets */; };
 		243E74BB1A8629710012C8AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 243E74B91A8629710012C8AC /* LaunchScreen.xib */; };
 		243E74C71A8629710012C8AC /* notetakingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 243E74C61A8629710012C8AC /* notetakingTests.m */; };
+		243E750B1A8645A20012C8AC /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 243E750A1A8645A20012C8AC /* Note.m */; };
+		248564E51A865D8E00E7C7B8 /* NotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248564E41A865D8E00E7C7B8 /* NotesTableViewController.m */; };
+		248564E91A86620700E7C7B8 /* NoteAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 248564E81A86620700E7C7B8 /* NoteAdapter.m */; };
+		248564EC1A86736A00E7C7B8 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248564EB1A86736A00E7C7B8 /* NoteViewController.m */; };
+		248564EF1A8675F900E7C7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248564ED1A8675F900E7C7B8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,20 @@
 		243E74AB1A8629710012C8AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		243E74AC1A8629710012C8AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		243E74AF1A8629710012C8AC /* notetaking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = notetaking.xcdatamodel; sourceTree = "<group>"; };
-		243E74B11A8629710012C8AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		243E74B21A8629710012C8AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		243E74B51A8629710012C8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		243E74B71A8629710012C8AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		243E74BA1A8629710012C8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		243E74C01A8629710012C8AC /* notetakingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notetakingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		243E74C51A8629710012C8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		243E74C61A8629710012C8AC /* notetakingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = notetakingTests.m; sourceTree = "<group>"; };
+		243E75091A8645A20012C8AC /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		243E750A1A8645A20012C8AC /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		248564E31A865D8E00E7C7B8 /* NotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesTableViewController.h; sourceTree = "<group>"; };
+		248564E41A865D8E00E7C7B8 /* NotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesTableViewController.m; sourceTree = "<group>"; };
+		248564E71A86620700E7C7B8 /* NoteAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteAdapter.h; sourceTree = "<group>"; };
+		248564E81A86620700E7C7B8 /* NoteAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteAdapter.m; sourceTree = "<group>"; };
+		248564EA1A86736A00E7C7B8 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		248564EB1A86736A00E7C7B8 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		248564EE1A8675F900E7C7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +92,12 @@
 		243E74A61A8629710012C8AC /* notetaking */ = {
 			isa = PBXGroup;
 			children = (
-				243E74AB1A8629710012C8AC /* AppDelegate.h */,
-				243E74AC1A8629710012C8AC /* AppDelegate.m */,
-				243E74B11A8629710012C8AC /* ViewController.h */,
-				243E74B21A8629710012C8AC /* ViewController.m */,
-				243E74B41A8629710012C8AC /* Main.storyboard */,
+				248564E61A8661D100E7C7B8 /* Helpers */,
+				243E74D11A86315D0012C8AC /* Other Sources */,
+				243E74D01A8631270012C8AC /* Controllers */,
 				243E74B71A8629710012C8AC /* Images.xcassets */,
-				243E74B91A8629710012C8AC /* LaunchScreen.xib */,
-				243E74AE1A8629710012C8AC /* notetaking.xcdatamodeld */,
+				243E74D31A8631830012C8AC /* Views */,
+				243E74D21A86316E0012C8AC /* Models */,
 				243E74A71A8629710012C8AC /* Supporting Files */,
 			);
 			path = notetaking;
@@ -120,6 +127,54 @@
 				243E74C51A8629710012C8AC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		243E74D01A8631270012C8AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				248564E31A865D8E00E7C7B8 /* NotesTableViewController.h */,
+				248564E41A865D8E00E7C7B8 /* NotesTableViewController.m */,
+				248564EA1A86736A00E7C7B8 /* NoteViewController.h */,
+				248564EB1A86736A00E7C7B8 /* NoteViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		243E74D11A86315D0012C8AC /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				248564ED1A8675F900E7C7B8 /* Main.storyboard */,
+				243E74AB1A8629710012C8AC /* AppDelegate.h */,
+				243E74AC1A8629710012C8AC /* AppDelegate.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		243E74D21A86316E0012C8AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				243E74AE1A8629710012C8AC /* notetaking.xcdatamodeld */,
+				243E75091A8645A20012C8AC /* Note.h */,
+				243E750A1A8645A20012C8AC /* Note.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		243E74D31A8631830012C8AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				243E74B91A8629710012C8AC /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		248564E61A8661D100E7C7B8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				248564E71A86620700E7C7B8 /* NoteAdapter.h */,
+				248564E81A86620700E7C7B8 /* NoteAdapter.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243E74B61A8629710012C8AC /* Main.storyboard in Resources */,
+				248564EF1A8675F900E7C7B8 /* Main.storyboard in Resources */,
 				243E74BB1A8629710012C8AC /* LaunchScreen.xib in Resources */,
 				243E74B81A8629710012C8AC /* Images.xcassets in Resources */,
 			);
@@ -222,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248564EC1A86736A00E7C7B8 /* NoteViewController.m in Sources */,
+				243E750B1A8645A20012C8AC /* Note.m in Sources */,
 				243E74AD1A8629710012C8AC /* AppDelegate.m in Sources */,
+				248564E91A86620700E7C7B8 /* NoteAdapter.m in Sources */,
 				243E74AA1A8629710012C8AC /* main.m in Sources */,
-				243E74B31A8629710012C8AC /* ViewController.m in Sources */,
+				248564E51A865D8E00E7C7B8 /* NotesTableViewController.m in Sources */,
 				243E74B01A8629710012C8AC /* notetaking.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,20 +306,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		243E74B41A8629710012C8AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				243E74B51A8629710012C8AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		243E74B91A8629710012C8AC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				243E74BA1A8629710012C8AC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		248564ED1A8675F900E7C7B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248564EE1A8675F900E7C7B8 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +474,7 @@
 				243E74CC1A8629710012C8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		243E74CD1A8629710012C8AC /* Build configuration list for PBXNativeTarget "notetakingTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +483,7 @@
 				243E74CF1A8629710012C8AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

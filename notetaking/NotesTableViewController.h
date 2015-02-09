@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NotesTableViewController.h
 //  notetaking
 //
 //  Created by India Dearlove on 07/02/2015.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Note.h"
 
-@interface ViewController : UIViewController
+@interface NotesTableViewController : UITableViewController
 
+@property Note *note;
 
 @end
-
